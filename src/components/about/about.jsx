@@ -21,7 +21,7 @@ const About = () => {
           highly-skillful hair stylists who are passionate about transforming
           you and giving your hair/beard a completely new life. If you are still
           unsure of our abilities, please take some time and have a
-          once-in-a-lifetime visit.
+          once-in-a-lifetime visit. hello
         </p>
       </div>
     </div>
