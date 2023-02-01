@@ -1,0 +1,59 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+  width: min(100%, 1000px);
+  margin-inline: auto;
+  margin-top: 2rem;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+    margin-top: 0.2rem;
+    margin-inline: 0;
+    height: 20vh;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    a {
+      cursor: default;
+    }
+
+    .logo {
+      width: 10rem;
+
+      cursor: pointer;
+
+      @media (max-width: 768px) {
+        width: 8rem;
+      }
+    }
+  }
+
+  .nav-items-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+      margin-top: 0.5rem;
+    }
+
+    .nav-item {
+      margin: 0 3rem;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: #d1cfc2;
+
+      @media (max-width: 768px) {
+        font-size: 1.2rem;
+        margin: 0 1rem;
+      }
+    }
+  }
+}

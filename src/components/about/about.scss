@@ -1,0 +1,60 @@
+.about {
+  display: flex;
+  margin: 10rem auto;
+  justify-content: space-evenly;
+  width: 90%;
+
+  @media (max-width: 768px) {
+    display: block;
+    margin: 2rem auto;
+    margin-bottom: 5rem;
+  }
+
+  .big-logo-container {
+    display: flex;
+    justify-content: center;
+    .logo {
+      width: 20rem;
+
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+
+  .logo-mobile {
+    display: none;
+
+    @media (max-width: 768px) {
+      display: block;
+      width: 15rem;
+    }
+  }
+
+  .about-text {
+    width: 40%;
+
+    @media (max-width: 768px) {
+      margin: auto;
+      margin-top: 4rem;
+      width: 85%;
+    }
+
+    h2 {
+      width: 30%;
+      color: #7b0b0b;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+
+      @media (max-width: 768px) {
+        margin: auto;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+    }
+
+    p {
+      line-height: 180%;
+    }
+  }
+}
