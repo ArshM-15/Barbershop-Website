@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Unreal Cuts 💈
+
+## An Aesthetically Pleasing Barbershop Website ✂️
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
