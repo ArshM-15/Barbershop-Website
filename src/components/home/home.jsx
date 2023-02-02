@@ -18,7 +18,7 @@ const Home = () => {
           ...animate,
         }}
       >
-        <h1>Hello</h1>
+        <h1>Hello!!</h1>
         <h3>To the most unrealistic barbershop in the world.</h3>
         <Link to="contact" spy={true} smooth={true} offset={50} duration={700}>
           Book Now
